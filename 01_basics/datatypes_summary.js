@@ -30,3 +30,18 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+
+/**************************** Memory ****************/
+
+
+// stack(in all primitive opertor we use stack memory) , Heap(in all non primitive operator we use heap memory)
+
+let myyoutubeName = "Himanshugangwar.com"
+
+let anotherName = myyoutubeName
+anotherName = "Himanshu"
+
+console.log(anotherName)// Himanshu
+console.log(myyoutubeName)// himanshuGangwar.com
