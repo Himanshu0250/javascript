@@ -10,3 +10,9 @@
     console.log(`DB CONNECTED TWO ${name}`);
 } )('abcd')
 
+
+
+
+
+///////////// JavaScript Execution Context ///////////
+

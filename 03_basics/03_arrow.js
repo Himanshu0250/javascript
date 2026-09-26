@@ -13,17 +13,17 @@ user.username = "sam"
 user.welcomeMessage()
 console.log(this)// ouput {}
 
-// function any() {
-//     let username = "def"
-//     console.log(this.username)
-// }
-// any()
+function any() {
+    let username = "def"
+    console.log(this.username)
+}
+any()
 
-// const any = () => {
-//     let username = "def"
-//     console.log(this)
-// }
-// any()
+const any = () => {
+    let username = "def"
+    console.log(this)
+}
+any()
 
 // const addTwo = (num1 , num2) => {
 //     return num1 + num2
